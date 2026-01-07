@@ -1,4 +1,4 @@
-# dual-LiDAR-object-detection
+# Dual-LiDAR 3D Object Detection for Construction Site
 
 ## Dual-LiDAR Point Cloud Fusion with Automatic Alignment for Enhanced 3D Object Detection in Construction Site Environments
 
@@ -13,39 +13,45 @@ This is the project page for [[Paper]](https://)
 The proposed system employs two LiDAR sensors positioned 24 meters apart, with an automatic alignment pipeline combining Fast Point Feature Histogram (FPFH) descriptors and Iterative Closest Point (ICP) registration to precisely merge the two point clouds. The system performs coarse-to-fine alignment through RANSAC-based global registration followed by point-to-plane ICP refinement, achieving robust fusion without manual intervention. The merged point cloud provides enhanced spatial coverage and reduced occlusion compared to single-sensor configurations. We integrate this dual-LiDAR framework with our background filtering method to enable accurate 3D object detection of construction vehicle and personnel
 
 <div align="center">
-  <img src="1.pdf" width="100%" title="workflow"><br>
+  <img src="1.png" width="100%" title="workflow"><br>
   <strong>Figure 1.</strong> Complete system workflow.
 </div>
 <br><br>
 
 
 <div align="center">
-  <img src="Picture2.png" width="100%" title="workflow"><br>
+  <img src="2.png" width="100%" title="workflow"><br>
   <strong>Figure 2.</strong> The setup of the experimental monitoring system.
 </div>
 <br><br>
 
 
 <div align="center">
-  <img src="Picture3.png" width="100%" title="workflow"><br>
+  <img src="3.png" width="100%" title="workflow"><br>
   <strong>Figure 3.</strong> Background filtering of point cloud frame.
 </div>
 <br><br>
 
 <div align="center">
-  <img src="Picture4.png" width="100%" title="workflow"><br>
+  <img src="4.png" width="100%" title="workflow"><br>
   <strong>Figure 4.</strong> Visualization of object detection. (green: worker, red: construction vehicle).
 </div>
 <br><br>
 
 <div align="center">
-  <img src="Picture5.png" width="100%" title="workflow"><br>
+  <img src="5.png" width="100%" title="workflow"><br>
   <strong>Figure 5.</strong> Workflow of muti-object tracking framework.
 </div>
 <br><br>
 
 <div align="center">
-  <img src="Picture6.png" width="100%" title="workflow"><br>
+  <img src="6.png" width="100%" title="workflow"><br>
+  <strong>Figure 6.</strong> The visualization of the construction site in RViz.
+</div>
+<br><br>
+
+<div align="center">
+  <img src="6.png" width="100%" title="workflow"><br>
   <strong>Figure 6.</strong> The visualization of the construction site in RViz.
 </div>
 <br><br>
