@@ -101,6 +101,7 @@ Great thanks to the Q building of Kennesaw State University.
 ## Cite
 If this project is useful in your research, please cite:
 > He, C., & Hu, D. (2026). Dual-LiDAR Point Cloud Fusion with Automatic Alignment for Enhanced 3D Object Detection in Construction Site Environments.
-> Related paper:
+
+Related paper:
 > He, C., & Hu, D. (2026). A LiDAR-Driven Framework for Real-Time Monitoring and Speed Tracking on Construction Sites.
 
