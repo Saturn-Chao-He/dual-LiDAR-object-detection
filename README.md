@@ -81,7 +81,7 @@ roscore
 ## 4. Ternimal 2
 Run
 ```bash
-rviz -d tracking.rviz -f velodyne
+rviz -d detect.rviz -f velodyne
 ```
 
 ## 5. VSCode
