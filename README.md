@@ -14,45 +14,45 @@ The proposed system employs two LiDAR sensors positioned 24 meters apart, with a
 
 <div align="center">
   <img src="1.png" width="100%" title="workflow"><br>
-  <strong>Figure 1.</strong> Complete system workflow.
+  <strong>Figure 1.</strong> Complete System Workflow.
 </div>
 <br><br>
 
 
 <div align="center">
   <img src="2.png" width="100%" title="workflow"><br>
-  <strong>Figure 2.</strong> The setup of the experimental monitoring system.
+  <strong>Figure 2.</strong> The Setup of the Data Collection (note: for visualization purposes, the LiDAR sensors appear closer together in this photograph than their actual deployment configuration. The operational sensor separation during data collection is 24 meters; photographing at true scale would render the individual sensors too small to distinguish clearly.).
 </div>
 <br><br>
 
 
 <div align="center">
   <img src="3.png" width="100%" title="workflow"><br>
-  <strong>Figure 3.</strong> Background filtering of point cloud frame.
+  <strong>Figure 3.</strong> Background Filtering (the foreground object is an excavator.).
 </div>
 <br><br>
 
 <div align="center">
   <img src="4.png" width="100%" title="workflow"><br>
-  <strong>Figure 4.</strong> Visualization of object detection. (green: worker, red: construction vehicle).
+  <strong>Figure 4.</strong> Background Reconstruction in Bird’s Eye View.
 </div>
 <br><br>
 
 <div align="center">
   <img src="5.png" width="100%" title="workflow"><br>
-  <strong>Figure 5.</strong> Workflow of muti-object tracking framework.
+  <strong>Figure 5.</strong> Bird's Eye View Visualization of Entire Construction Site (red: left LiDAR, blue: right LiDAR).
 </div>
 <br><br>
 
 <div align="center">
   <img src="6.png" width="100%" title="workflow"><br>
-  <strong>Figure 6.</strong> The visualization of the construction site in RViz.
+  <strong>Figure 6.</strong> Details of Objects after Automatic Alignment (red: left LiDAR, blue: right LiDAR).
 </div>
 <br><br>
 
 <div align="center">
-  <img src="6.png" width="100%" title="workflow"><br>
-  <strong>Figure 6.</strong> The visualization of the construction site in RViz.
+  <img src="7.png" width="100%" title="workflow"><br>
+  <strong>Figure 7.</strong> Bird's Eye View of Results for Single-LiDAR System (Left) and Dual-LiDAR system (Right) (red: excavator, green: worker).
 </div>
 <br><br>
 
