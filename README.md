@@ -57,16 +57,16 @@ The proposed system employs two LiDAR sensors positioned 24 meters apart, with a
 <br><br>
 
 
-## 1. Dataset
-**Dataset** : 
-[[bin]](https://github.com/Saturn-Chao-He/Construction-Site-Tracking/tree/main/bin)
+## 1. Data
+**Data** : 
+[[bin]](https://github.com/Saturn-Chao-He/dual-LiDAR-object-detection/tree/main/bin)
 
 ## 2. Environment (Ubuntu 20.04, ROS 1 Noetic)
 
 Create Python environment and install the required packages:
 ```bash
-conda env create -f track.yaml
-conda activate track
+conda env create -f dual.yaml
+conda activate dual
 
 ```
 
@@ -87,10 +87,10 @@ rviz -d tracking.rviz -f velodyne
 ## 5. VSCode
 Run
 ```bash
-# conda env: track
+# conda env: dual
 export DISABLE_ROS1_EOL_WARNINGS=1
 source /opt/ros/noetic/setup.bash
-python speed.py
+python detect.py
 ```
 
 
@@ -100,5 +100,7 @@ Great thanks to the Q building of Kennesaw State University.
 
 ## Cite
 If this project is useful in your research, please cite:
-> He, C., & Hu, D. (2025). A LiDAR-Driven Framework for Real-Time Monitoring and Speed Tracking on Construction Sites.
+> He, C., & Hu, D. (2026). Dual-LiDAR Point Cloud Fusion with Automatic Alignment for Enhanced 3D Object Detection in Construction Site Environments.
+> Related paper:
+> He, C., & Hu, D. (2026). A LiDAR-Driven Framework for Real-Time Monitoring and Speed Tracking on Construction Sites.
 
